@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph{
+    color: rgb(167, 194, 97);
+    background-color: blue;
+    font-style: italic;
+    text-align: center;
+}
+#second-paragraph{
+    color: #c68b47;
+    background-color: aquamarine;
+    font-size: 35px;
+    text-decoration: line-through;
+    
+}
+#bold-paragraph{
+    font-weight: bold;
+    background-color: aqua;
+    font-family: georgia, trebuchet, cursive 
+}
+#span1{
+    color: crimson; 
+    font-weight: bold;
+    font-size: 48px;
+}
+#span2{
+    font-style: italic;
+    text-decoration: line-through;
+}
+#span3{
+    background-color: yellow;
+}
+#span4{
+    text-align: right;
+}
