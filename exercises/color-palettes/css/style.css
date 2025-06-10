@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#color-1{
+    background-color: blue;
+    color: rgb(37, 37, 114);
+    font-family: Cambria;
+    text-align: center;
+    padding: 24px;
+}
+#color-2{
+    background-color: rgb(52, 232, 79);
+    color: rgb(43, 161, 19);
+    font-family: gill sans;
+    text-align: center;
+    padding: 24px;
+}
+#color-3{
+    background-color: rgb(236, 198, 27);
+    color: rgb(160, 150, 10);
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#color-4{
+    background-color: rgb(206, 41, 29);
+    color: rgb(96, 42, 13);
+    font-family: cochin;
+    text-align: center;
+    padding: 24px;
+}
+#color-5{
+    background-color: rgb(101, 78, 36);
+    color: rgb(36, 17, 7);
+    font-family: verdana;
+    text-align: center;
+    padding: 24px;
+}
+#color-6{
+    background-color: rgb(237, 219, 15);
+    color: rgb(36, 17, 7);
+    font-family: tahoma;
+    text-align: center;
+    padding: 24px;
+}
+#color-7{
+    background-color: rgb(143, 239, 54);
+    color: rgb(36, 17, 7);
+    font-family: helvetica;
+    text-align: center;
+    padding: 24px;
+}
+#color-8{
+    background-color: rgb(50, 28, 210);
+    color: rgb(36, 17, 7);
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#color-9{
+    background-color: rgb(39, 165, 203);
+    color: rgb(36, 17, 7);
+    font-family: abrial;
+    text-align: center;
+    padding: 24px;
+}
