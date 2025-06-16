@@ -1,0 +1,43 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.lion{
+    width:100px;
+    border: 15px solid blue;
+    background-color: rgb(123, 199, 104);
+    padding: 15px;
+    margin: 20px;
+    
+
+    
+}
+
+.mustang{
+    width: 100px;
+    border: 10px solid red;
+    background-color: rgb(82, 49, 44);
+    padding: 15px;
+    
+    
+}
+
+.lakers{
+    width: 50px;
+    border: 4px solid rgb(98, 53, 125);
+    padding: 15px;
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+.grim{
+    width: 35px;
+    border: 5px solid orange;
+    padding: 10px;
+    background-color: blueviolet;
+}
