@@ -1,0 +1,76 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+#section-1{
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+
+
+.card-style-1{
+    width: 350px;
+    border-radius: 5px;
+    background: rgb(228, 243, 237);
+    padding: 10px;
+
+}
+
+.card-style-2{
+    width: 350px;
+    border: 2px solid rgb(251, 251, 251);
+    border-radius: 5px;
+    background color: white;
+    padding: 10px;
+
+
+}
+.card-style-3{
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+
+}
+
+.card-style-4{
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+
+}
+.card-style-1 img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-style-2 img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-style-3 img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-style-4 img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
