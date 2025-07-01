@@ -7,11 +7,38 @@ body {
     font-family: sans-serif;
 }
 
-.absolute-image{
-    width:150px;
-    margin:
+#picture-1{
+    Width: 25vw;
+    max-width: 100px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: left;
 }
-.absolute-image2{
-    width: 150px;
-    
+
+.airforce1 img{
+     width: 10px;
+     height: 150;
+    padding: 10px; 
+}
+.airforce12 img{
+     width: 10px;
+     height: 150;
+    padding: 10px; 
+}
+.airforce13 img{
+     width: 2px;
+     height: 150;
+    padding: 10px; 
+}
+.airforce14 img{
+     width: 2px;
+     height: 150;
+    padding: 10px; 
+}
+.airforce15 img{
+     width: 2px;
+     height: 150;
+    padding: 10px; 
 }
