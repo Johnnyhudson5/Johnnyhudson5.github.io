@@ -1,4 +1,5 @@
-* {
+* 
+{
     box-sizing: border-box;
 }
 
@@ -46,14 +47,15 @@ body {
     padding-left: 650px;
 }
 .single-column {
-    min-width: 15px;
-    max-width: 15px;
+    min-width: 600px;
+    max-width: 1200px;
+    max-height: 600px;
     margin: 0px auto;
 }
 #card-section {
     background-color: #7396c0;
     color: #bfefff;
-    padding: 12px;
+    padding: 20px;
 }
 .card-container {
     display: flex;
@@ -61,19 +63,25 @@ body {
 }
 .card {
     flex: 1;
-    border: 1px solid #bfefff;
-    padding: 1px;
+    border: 5px solid #bfefff;
+    padding: 36px;
     text-align: center;
-    margin: 1px;
+    margin: 36px;
     max-width: fit-content;
     max-height: fit-content;
 }
 .card h1 {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0px;
-    padding-left: 20px;
+    padding-left: 25px;
 }
 .card a{
-    padding-left: 50px;
+    padding-left: 15px;
     max-width: fit-content;
+}
+#Cards a{
+     color: rgb(54, 83, 213);
+    padding-left: 650px;
+    position: absolute;
+    font-size: 20px;
 }
