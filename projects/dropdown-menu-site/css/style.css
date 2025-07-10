@@ -69,3 +69,7 @@ body {
 #navbar .dropdown-menu a:hover{
     background: aqua;
 }
+.dropdown-container:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
