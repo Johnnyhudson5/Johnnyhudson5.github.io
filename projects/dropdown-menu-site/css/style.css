@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero {
+    background-image: url("../images/240_F_302732355_EtPLonOg2fXfSqOXYKPPALm2vYdwFrXK.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+#hero .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+#hero h2 {
+    font-size: 50px;
+    margin-bottom: 36px;
+}
+#navbar {
+    background: linear-gradient(to bottom, rgb(44, 210, 204), #5438ba);
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+}
+#navbar #logo{
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+#navbar a:hover{
+    background: linear-gradient(
+    to top,
+    #10769c,
+    #5433a1
+    );
+}
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-menu a{
+    background-color: aqua;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover{
+    background: aqua;
+}
