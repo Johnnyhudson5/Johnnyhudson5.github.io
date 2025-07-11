@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 #hero {
-    background-image: url("../images/240_F_180076747_0rr5qgKvkSTYZ1jOjZvFaNokbRsbCw02.jpg");
+    background-image: url("../images/dogs2.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -85,10 +85,56 @@ body {
     width: 50%; 
     min-width: 500px;
     margin: 0px auto;
+    background-color: #a19c65;
 }
-
+#hero h2{
+    font-size: 35px;
+    display: inline-block;
+    background-color: #6e6a41;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    justify-content: center;
+   
+}
 
 
 @media screen and (max-width: 765px) {
 
+ #nav{
+    flex-direction: column;
+    align-items: center;
+}
+.single-column-layout {
+    width: 90vw;
+    max-width: 750px;
+    margin: 48px auto;
+}
+}
+
+@media screen and (max-width: 765px) and (min-width: 400px) {
+    body {
+        background-color: rgb(92, 150, 173);
+    }
+
+    .content-container h1 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 450px) {
+    body {
+        background-color: firebrick;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .center-column{
+        margin: 0px;
+        font-size: 28px;
+        text-align: center;
+    }
 }
