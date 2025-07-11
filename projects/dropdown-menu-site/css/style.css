@@ -81,3 +81,14 @@ body {
 .dropdown-container:last-child .dropdown-menu{
     right: 0px;
 }
+.center-column{
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+}
+
+
+
+@media screen and (max-width: 765px) {
+
+}
