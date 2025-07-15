@@ -66,3 +66,64 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+.first-container {
+    background-color: #97785c;
+    color: #42e284;
+    padding: 36px 50px;
+    font-family: Cambria;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Cambria;
+    color:#705034;
+}
+.first-container h2 {
+ color:#473322;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: #5c4c23;
+    color: #bfefff;
+    padding: 48px;
+     font-family: Cambria;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    border: 3px solid #51eb94;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    max-width: 300px;
+    background-color: #857d66;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+    color:#473322;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.card img{
+    width: 100%;
+}
