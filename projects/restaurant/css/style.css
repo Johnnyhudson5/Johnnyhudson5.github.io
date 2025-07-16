@@ -127,3 +127,30 @@ align-items: center;
 .card img{
     width: 100%;
 }
+
+
+
+@media screen and (max-width: 450px) {
+body {
+        background-color: rgb(71, 157, 223);
+    }
+
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+}
+    
+
+@media screen and (max-width: 750px) and (min-width: 400px){
+    body {
+        background-color: rgb(168, 145, 236);
+    }
+    .single-column {
+        font-size: 30px;
+    }
+    .side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+}
